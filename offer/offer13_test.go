@@ -17,11 +17,11 @@ func Test_movingCount(t *testing.T) {
 		{
 			name: "test1",
 			args: args{
-				m: 7,
-				n: 2,
-				k: 3,
+				m: 11,
+				n: 8,
+				k: 16,
 			},
-			want: 7,
+			want: 88,
 		},
 	}
 	for _, tt := range tests {
