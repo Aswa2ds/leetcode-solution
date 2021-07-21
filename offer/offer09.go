@@ -5,7 +5,7 @@ type CQueue struct {
 }
 
 
-func Constructor() CQueue {
+func Constructor_CQueue() CQueue {
 	return CQueue{
 		in:  &stack{},
 		out: &stack{},
