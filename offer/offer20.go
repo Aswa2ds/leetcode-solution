@@ -58,6 +58,7 @@ func isNumber(s string) bool {
 		},
 		ONLY_SIGN_STATE: {
 			NUM: INTEGER_STATE,
+			POINT: ONLY_POINT_STATE,
 		},
 		ONLY_POINT_STATE: {
 			NUM: POINT_STATE,
