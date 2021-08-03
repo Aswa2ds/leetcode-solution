@@ -102,3 +102,5 @@
 16. cpu 流水线 如何让A、B 指令在cpu中顺序执行？ 内存屏障
 
 17. gorm 
+
+18. [effectiv go](https://learnku.com/docs/effective-go/2020)

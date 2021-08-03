@@ -6,12 +6,12 @@ type MinStack struct {
 }
 
 /** initialize your data structure here. */
-func Constructor() MinStack {
-	return MinStack{
-		list:    make([]int, 0),
-		minList: make([]int, 0),
-	}
-}
+//func Constructor() MinStack {
+//	return MinStack{
+//		list:    make([]int, 0),
+//		minList: make([]int, 0),
+//	}
+//}
 
 
 func (this *MinStack) Push(x int)  {
