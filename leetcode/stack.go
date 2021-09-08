@@ -1,4 +1,4 @@
-package offer
+package leetcode
 
 type stack []interface{}
 

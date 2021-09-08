@@ -1,4 +1,4 @@
-package mergefind
+package hash
 
 func longestConsecutive(nums []int) int {
 	m := make(map[int]bool)

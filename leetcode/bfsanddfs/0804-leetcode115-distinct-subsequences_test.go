@@ -1,4 +1,4 @@
-package bfs
+package bfsanddfs
 
 import "testing"
 

@@ -1,12 +1,9 @@
 package adapter_pattern
 
-import "sort"
-
-type OrderedPrinterAdapter struct {
+type UnorderedPrinterAdapter struct {
 	Printer
 }
 
-func (p *OrderedPrinterAdapter) PrintOrdered(list []int) {
-	sort.Ints(list)
+func (p *UnorderedPrinterAdapter) Print(list []int) {
 	p.PrintList(list)
 }

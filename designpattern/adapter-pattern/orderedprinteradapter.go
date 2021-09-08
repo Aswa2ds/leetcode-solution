@@ -2,11 +2,11 @@ package adapter_pattern
 
 import "sort"
 
-type BannerAdapter struct {
-	Banner
+type OrderedPrinterAdapter struct {
+	Printer
 }
 
-func (b *BannerAdapter) PrintOrdered(list []int) {
+func (p *OrderedPrinterAdapter) Print(list []int) {
 	sort.Ints(list)
-	b.PrintList(list)
+	p.PrintList(list)
 }

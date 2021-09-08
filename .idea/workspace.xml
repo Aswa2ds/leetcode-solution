@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e1134354-eb59-4b32-8efc-ebeafa9264fc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/basicalgorithm/linkedlist.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basicalgorithm/linkedlist_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basicalgorithm/maxcommonfactor.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basicalgorithm/maxcommonfactor_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basicalgorithm/powerof2.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basicalgorithm/powerof2_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basicalgorithm/sort.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basicalgorithm/sort_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codetop/0818-longest-substring-without-repeating-characters.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codetop/0818-longest-substring-without-repeating-characters_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codetop/0818-lru-cache.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codetop/0818-lru-cache_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codetop/0818-reverse-nodes-in-k-group.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codetop/0818-reverse-nodes-in-k-group_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codetop/0819-binary-tree-zigzag-level-order-traversal.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codetop/0819-kth-largest-element-in-an-array.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codetop/0819-kth-largest-element-in-an-array_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codetop/0819-reverse-linked-list.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codetop/0819-single-number.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codetop/0821-3sum.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codetop/0821-best-time-to-buy-and-sell-stock.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codetop/0821-search-in-rotated-sorted-array.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codetop/0821-search-in-rotated-sorted-array_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codetop/0821-trapping-rain-water.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codetop/0822-intersection-of-two-linked-lists.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codetop/0822-linked-list-cycle-ii.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codetop/0822-linked-list-cycle.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codetop/0823-lowest-common-ancestor-of-a-binary-tree.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codetop/0823-next-permutation.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codetop/0823-next-permutation_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codetop/0823-reorder-list.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codetop/0824-binary-tree-right-side-view.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codetop/0824-binary-tree-right-side-view_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codetop/0824-first-missing-positive.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codetop/0824-longest-increasing-subsequence.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codetop/0824-merge-k-sorted-lists.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codetop/0824-merge-k-sorted-lists_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codetop/0824-merge-two-sorted-lists.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codetop/0824-minimum-window-substring.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codetop/0824-number-of-islands.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codetop/0824-number-of-islands_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codetop/0824-reverse-linked-list-ii.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codetop/0824-spiral-matrix.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codetop/0825-merge-intervals.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codetop/0825-merge-intervals_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codetop/0825-mySqrt.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codetop/0825-mySqrt_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codetop/0830-permutations.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codetop/0831-maximal-square.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codetop/0831-maximal-square_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codetop/0831-validate-binary-search-tree.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codetop/0831-validate-binary-search-tree_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codetop/0901-back-to-origin.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codetop/0901-binary-tree-maximum-path-sum.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codetop/0901-construct-binary-tree-from-preorder-and-inorder-tr.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codetop/0902-find-peak-element.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codetop/0902-sort-list.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codetop/listnode.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codetop/treenode.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designpattern/factory-method-pattern/factory.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designpattern/factory-method-pattern/idcard.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designpattern/factory-method-pattern/idcardfactory.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designpattern/factory-method-pattern/idcardfactory_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designpattern/factory-method-pattern/ifactory.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designpattern/factory-method-pattern/product.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designpattern/template-method-pattern/boy.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designpattern/template-method-pattern/girl.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designpattern/template-method-pattern/iperson.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designpattern/template-method-pattern/person.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designpattern/template-method-pattern/person_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/golearn/goroutine_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/golearn/implement_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/golearn/inherence_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/golearn/quicksort/quicksort.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/golearn/quicksort/quicksort_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/dichotomy/0808-leetcode287-find-the-duplicate-number.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/dichotomy/0808-leetcode287-find-the-duplicate-number_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/dynamicprogram/0807-leetcode124-binary-tree-maximum-path-sum_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/everyday/0808-leetcode1137-n-th-tribonacci-number.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/graphic/0827-leetcode997-find-the-town-judge.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/greedy/0807-leetcode121-binarytree.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/greedy/0807-leetcode121-binarytree_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/hash/0808-leetcode825-friends-of-appropriate-ages.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/hash/0808-leetcode825-friends-of-appropriate-ages_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/mathskill/0807-leetcode233-number-of-digit-one.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/slidewindow/0808-leetcode88-merge-sorted-array.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sourcecodelearn/slice/slice_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week255/1-find-greatest-common-divisor-of-array.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designpattern/adapter-pattern/orderedprinter.go" beforeDir="false" afterPath="$PROJECT_DIR$/designpattern/adapter-pattern/orderedprinter.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designpattern/adapter-pattern/orderedprinteradapter.go" beforeDir="false" afterPath="$PROJECT_DIR$/designpattern/adapter-pattern/orderedprinteradapter.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designpattern/adapter-pattern/printer.go" beforeDir="false" afterPath="$PROJECT_DIR$/designpattern/adapter-pattern/printer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designpattern/adapter-pattern/printer_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/designpattern/adapter-pattern/printer_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designpattern/adapter-pattern/unorderedPrinter.go" beforeDir="false" afterPath="$PROJECT_DIR$/designpattern/adapter-pattern/unorderedPrinter.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designpattern/adapter-pattern/unorderedprinteradapter.go" beforeDir="false" afterPath="$PROJECT_DIR$/designpattern/adapter-pattern/unorderedprinteradapter.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designpattern/iterator-pattern/aggregate.go" beforeDir="false" afterPath="$PROJECT_DIR$/designpattern/iterator-pattern/aggregate.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designpattern/iterator-pattern/bookshelf.go" beforeDir="false" afterPath="$PROJECT_DIR$/designpattern/iterator-pattern/bookshelf.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designpattern/iterator-pattern/bookshelf_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/designpattern/iterator-pattern/bookshelf_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designpattern/iterator-pattern/bookshelfiterator.go" beforeDir="false" afterPath="$PROJECT_DIR$/designpattern/iterator-pattern/bookshelfiterator.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designpattern/iterator-pattern/iterator.go" beforeDir="false" afterPath="$PROJECT_DIR$/designpattern/iterator-pattern/iterator.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designpattern/templatemethod-pattern/quicksort.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/designpattern/templatemethod-pattern/templatemethod_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/golearn/deferandpanic.go" beforeDir="false" afterPath="$PROJECT_DIR$/golearn/deferandpanic.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/golearn/pointer_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/golearn/pointer_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/bfsanddfs/0804-leetcode115-distinct-subsequences.go" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/bfsanddfs/0804-leetcode115-distinct-subsequences.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/bfsanddfs/0804-leetcode115-distinct-subsequences_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/bfsanddfs/0804-leetcode115-distinct-subsequences_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/binarytree/0805-leetcode99-recover-binary-search-tree.go" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/binarytree/0805-leetcode99-recover-binary-search-tree.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/binarytree/treenode.go" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/binarytree/treenode.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/bitcalculate/0805-leetcode137-single-number-ii.go" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/bitcalculate/0805-leetcode137-single-number-ii.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/bitcalculate/0805-leetcode137-single-number-ii_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/bitcalculate/0805-leetcode137-single-number-ii_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/dynamicprogram/0807-leetcode124-binary-tree-maximum-path-sum.go" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/dynamicprogram/0807-leetcode124-binary-tree-maximum-path-sum.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/dynamicprogram/treenode.go" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/dynamicprogram/treenode.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/everyday/0804-leetcode611-valid-triangle-number.go" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/everyday/0804-leetcode611-valid-triangle-number.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/everyday/0804-leetcode611-valid-triangle-number_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/everyday/0804-leetcode611-valid-triangle-number_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/hash/0806-leetcode128-longest-consecutive-sequence.go" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/hash/0806-leetcode128-longest-consecutive-sequence.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/hash/0806-leetcode128-longest-consecutive-sequence_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/hash/0806-leetcode128-longest-consecutive-sequence_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/simulation/0806-leetcode289-game-of-life.go" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/simulation/0806-leetcode289-game-of-life.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/simulation/0806-leetcode289-game-of-life_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/simulation/0806-leetcode289-game-of-life_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/stack.go" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/stack.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/string/0805-leetcode8-string-to-integer-atoi.go" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/string/0805-leetcode8-string-to-integer-atoi.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/string/0805-leetcode8-string-to-integer-atoi_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/string/0805-leetcode8-string-to-integer-atoi_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/offer/offer17.go" beforeDir="false" afterPath="$PROJECT_DIR$/offer/offer17.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/offer/offer39.go" beforeDir="false" afterPath="$PROJECT_DIR$/offer/offer39.go" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" url="file:///usr/local/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file:///usr/local/go/src/reflect/type.go" root0="SKIP_INSPECTION" />
+    <setting file="file:///usr/local/go/src/reflect/value.go" root0="SKIP_INSPECTION" />
+    <setting file="file:///usr/local/go/src/unsafe/unsafe.go" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProjectId" id="1vP2aM5zyI3DQDzMfRkiTwIkryc" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TODO_SCOPE" value="All Places" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable..is.expanded" value="false" />
+    <property name="configurable.GoLibrariesConfigurable.is.expanded" value="true" />
+    <property name="go.formatter.settings.were.checked" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.modules.go.list.on.any.changes.was.set" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/basicalgorithm" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoProjectSettingsConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/basicalgorithm" />
+      <recent name="$PROJECT_DIR$/codetop" />
+      <recent name="$PROJECT_DIR$/leetcode/dynamicprogram" />
+      <recent name="$PROJECT_DIR$/designpattern/adapter-pattern" />
+      <recent name="$PROJECT_DIR$/leetcode/binarytree" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/golearn" />
+      <recent name="$PROJECT_DIR$/leetcode/hash" />
+      <recent name="$PROJECT_DIR$/sourcecodelearn/container" />
+      <recent name="$PROJECT_DIR$/offer" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Test.Test_generateParenthesis/test in aswa2ds.cn/leetcode-solution/codetop">
+    <configuration name="TestSliceScale in aswa2ds.cn/leetcode-solution/sourcecodelearn/slice" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="leetcode-solution" />
+      <working_directory value="$PROJECT_DIR$/sourcecodelearn/slice" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="aswa2ds.cn/leetcode-solution/sourcecodelearn/slice" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestSliceScale\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test_generateParenthesis/test in aswa2ds.cn/leetcode-solution/codetop" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="leetcode-solution" />
+      <working_directory value="$PROJECT_DIR$/codetop" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="aswa2ds.cn/leetcode-solution/codetop" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTest_generateParenthesis\E$/^\Qtest\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test_isValidBST/test in aswa2ds.cn/leetcode-solution/codetop" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="leetcode-solution" />
+      <working_directory value="$PROJECT_DIR$/codetop" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="aswa2ds.cn/leetcode-solution/codetop" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTest_isValidBST\E$/^\Qtest\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test_maximalSquare/test in aswa2ds.cn/leetcode-solution/codetop" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="leetcode-solution" />
+      <working_directory value="$PROJECT_DIR$/codetop" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="aswa2ds.cn/leetcode-solution/codetop" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTest_maximalSquare\E$/^\Qtest\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test_merge/test in aswa2ds.cn/leetcode-solution/codetop" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="leetcode-solution" />
+      <working_directory value="$PROJECT_DIR$/codetop" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="aswa2ds.cn/leetcode-solution/codetop" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTest_merge\E$/^\Qtest\E$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Test.Test_generateParenthesis/test in aswa2ds.cn/leetcode-solution/codetop" />
+        <item itemvalue="Go Test.TestSliceScale in aswa2ds.cn/leetcode-solution/sourcecodelearn/slice" />
+        <item itemvalue="Go Test.Test_maximalSquare/test in aswa2ds.cn/leetcode-solution/codetop" />
+        <item itemvalue="Go Test.Test_isValidBST/test in aswa2ds.cn/leetcode-solution/codetop" />
+        <item itemvalue="Go Test.Test_merge/test in aswa2ds.cn/leetcode-solution/codetop" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/codetop/0821-search-in-rotated-sorted-array.go</url>
+          <line>34</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/codetop/0825-mySqrt.go</url>
+          <line>6</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file:///usr/local/go/src/runtime/slice.go</url>
+          <line>190</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="DlvErrorBreakpoint" />
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/leetcode_solution$Test_numDistinct_test_in_aswa2ds_cn_leetcode_solution_leetcode_bfs.out" NAME="Test_numDistinct/test in aswa2ds.cn/leetcode-solution/leetcode/bfs Coverage Results" MODIFIED="1628063705732" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>

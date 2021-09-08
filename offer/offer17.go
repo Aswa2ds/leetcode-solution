@@ -14,7 +14,7 @@ import (
 //	return ints
 //}
 
-//big int not dfs but bfs
+//big int not dfs but bfsanddfs
 //func printNumbers(n int) []int {
 //	base := []string{"0", "1", "2", "3", "4", "5", "6", "7", "8", "9"}
 //	res := dfsPrintNumbers(base, base, n, 1)[1:]

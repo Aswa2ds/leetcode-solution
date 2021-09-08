@@ -1,4 +1,4 @@
-package mergefind
+package hash
 
 import "testing"
 

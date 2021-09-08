@@ -1,4 +1,4 @@
-package binarytree
+package dynamicprogram
 
 type TreeNode struct {
 	Val int

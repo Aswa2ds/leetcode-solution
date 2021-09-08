@@ -1,4 +1,4 @@
-package leetcode
+package binarytree
 
 type TreeNode struct {
 	Val int

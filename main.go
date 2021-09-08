@@ -1,22 +1,25 @@
 package main
 
-import (
-	"aswa2ds.cn/leetcode-solution/offer"
-	"fmt"
-)
+//func main() {
+//	c := make(chan int)
+//
+//	go func() {
+//		//c <- 1 // send to channel
+//		close(c)
+//	}()
+//
+//	x := <-c // recv from channel
+//
+//	fmt.Println(x)
+//}
+
+func add(a, b int) int {
+	return a + b
+}
 
 func main() {
-	medianFinder := offer.Constructor()
-	medianFinder.AddNum(-1)
-	fmt.Println(medianFinder.FindMedian())
-	medianFinder.AddNum(-2)
-	fmt.Println(medianFinder.FindMedian())
-	medianFinder.AddNum(-3)
-	fmt.Println(medianFinder.FindMedian())
-	medianFinder.AddNum(-4)
-	fmt.Println(medianFinder.FindMedian())
-	medianFinder.AddNum(-5)
-	fmt.Println(medianFinder.FindMedian())
+	sum := add(1, 2)
+	sum++
 }
 
 //func foo() int {
@@ -33,3 +36,4 @@ func main() {
 //	var _ = make([]int, 100)
 //	foo()
 //}
+//
