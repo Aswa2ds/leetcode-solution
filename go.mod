@@ -1,1 +1,1 @@
-module "aswa2ds.cn/leetcode-solution"
+module aswa2ds.cn/leetcode-solution
