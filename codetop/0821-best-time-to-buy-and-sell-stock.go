@@ -16,7 +16,7 @@ package codetop
 //	return profile
 //}
 
-func maxProfit(prices []int) int {
+func maxProfiti(prices []int) int {
 	dp := make([]int, 2)
 	dp[0] = 0
 	dp[1] = -prices[0]
@@ -28,7 +28,7 @@ func maxProfit(prices []int) int {
 	}
 
 	for i := 1; i < len(prices); i++ {
-		dp[0] = max(dp[0], dp[1] + prices[i])
+		dp[0] = max(dp[0], dp[1]+prices[i])
 		dp[1] = max(dp[1], -prices[i])
 	}
 	return dp[0]
