@@ -5,7 +5,7 @@ import (
 	"time"
 )
 
-func merge(intervals [][]int) [][]int {
+func merge1(intervals [][]int) [][]int {
 	var quickSort func(intervals [][]int, left, right int)
 	var partition func(internals [][]int, left, right int) int
 	quickSort = func(intervals [][]int, left, right int) {
