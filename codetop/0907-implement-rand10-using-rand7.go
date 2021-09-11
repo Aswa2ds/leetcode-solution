@@ -34,5 +34,4 @@ func rand10() int {
 			return 1 + idx%10
 		}
 	}
-	return 0
 }
