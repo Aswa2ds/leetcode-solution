@@ -54,7 +54,7 @@ func divide(nums []int, left int, right int, k int) int {
 	if left >= right {
 		return nums[left]
 	}
-	key := rand.Intn(right-left) +left
+	key := rand.Intn(right-left) + left
 	nums[left], nums[key] = nums[key], nums[left]
 	i, j, pivot := left, right, nums[left]
 	for i < j {
@@ -77,14 +77,14 @@ func divide(nums []int, left int, right int, k int) int {
 
 }
 
-func quickSort(nums []int, left, right int) {
+func quickSort1(nums []int, left, right int) {
 	// 终止条件
 	if left >= right {
 		return
 	}
 	// 随机key 避免原数组按序排列，导致的n^2 的时间复杂度
 	rand.Seed(time.Now().UnixNano())
-	key := rand.Intn(right-left)+left
+	key := rand.Intn(right-left) + left
 	nums[left], nums[key] = nums[key], nums[left]
 	lo, hi, pivot := left, right, nums[left]
 	for lo < hi {
@@ -100,11 +100,9 @@ func quickSort(nums []int, left, right int) {
 	// 此时lo hi 的位置重合，且不存在越界的情况，且由于lo起始指在pivot 上，不会出现lo 的位置小于pivot的情况，如果后门的数字全都小于pivot，那么此时lo = pivot
 	nums[left], nums[lo] = nums[lo], nums[left]
 	// 分治左右两侧
-	quickSort(nums, left, lo-1)
-	quickSort(nums, lo+1, right)
+	quickSort1(nums, left, lo-1)
+	quickSort1(nums, lo+1, right)
 }
-
-
 
 //func divide(nums []int, i int, j int, k int) int {
 //	pivot := i

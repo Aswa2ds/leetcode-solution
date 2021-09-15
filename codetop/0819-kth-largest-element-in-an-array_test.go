@@ -21,7 +21,7 @@ func Test_findKthLargest(t *testing.T) {
 		{
 			name: "test",
 			args: args{
-				nums: []int{5,2,4,1,3,6,0},
+				nums: []int{5, 2, 4, 1, 3, 6, 0},
 				k:    4,
 			},
 			want: 3,
@@ -47,7 +47,7 @@ func Test_findKthLargest(t *testing.T) {
 
 func Test_quickSort(t *testing.T) {
 	list := generateRandomList(1000)
-	quickSort(list, 0, len(list)-1)
+	quickSort1(list, 0, len(list)-1)
 	fmt.Println(list)
 }
 

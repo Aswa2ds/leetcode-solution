@@ -1,17 +1,17 @@
 package codetop
 
 type DLinkedNode struct {
-	key int
-	val int
+	key  int
+	val  int
 	prev *DLinkedNode
 	next *DLinkedNode
 }
 
 type LRUCache struct {
-	cache map[int]*DLinkedNode
-	recode *DLinkedNode
+	cache    map[int]*DLinkedNode
+	recode   *DLinkedNode
 	capacity int
-	size int
+	size     int
 }
 
 func (head *DLinkedNode) moveNodeToHead(node *DLinkedNode) {
@@ -36,8 +36,7 @@ func (head *DLinkedNode) addToHead(node *DLinkedNode) {
 	node.next.prev = node
 }
 
-
-func Constructor(capacity int) LRUCache {
+func ConstructorLRU(capacity int) LRUCache {
 	head := &DLinkedNode{
 		val:  -1,
 		prev: nil,
@@ -53,7 +52,6 @@ func Constructor(capacity int) LRUCache {
 	}
 }
 
-
 func (this *LRUCache) Get(key int) int {
 	if node, ok := this.cache[key]; ok {
 		this.recode.moveNodeToHead(node)
@@ -62,8 +60,7 @@ func (this *LRUCache) Get(key int) int {
 	return -1
 }
 
-
-func (this *LRUCache) Put(key int, value int)  {
+func (this *LRUCache) Put(key int, value int) {
 	if node, ok := this.cache[key]; ok {
 		node.val = value
 		this.recode.moveNodeToHead(node)
@@ -76,7 +73,7 @@ func (this *LRUCache) Put(key int, value int)  {
 			this.recode.moveNodeToHead(node)
 			this.cache[key] = node
 		} else {
-			node := &DLinkedNode{key: key, val:  value, prev: nil, next: nil}
+			node := &DLinkedNode{key: key, val: value, prev: nil, next: nil}
 			this.recode.addToHead(node)
 			this.cache[key] = node
 			this.size++

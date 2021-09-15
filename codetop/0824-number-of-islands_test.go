@@ -14,7 +14,7 @@ func Test_numIslands(t *testing.T) {
 		// TODO: Add test cases.
 		{
 			name: "test",
-			args: args{grid: [][]byte{{1,1,0,1,0}}},
+			args: args{grid: [][]byte{{1, 1, 0, 1, 0}}},
 			want: 0,
 		},
 	}
