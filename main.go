@@ -1,5 +1,10 @@
 package main
 
+import (
+	"fmt"
+	"strings"
+)
+
 //func main() {
 //	c := make(chan int)
 //
@@ -13,13 +18,10 @@ package main
 //	fmt.Println(x)
 //}
 
-func add(a, b int) int {
-	return a + b
-}
-
 func main() {
-	sum := add(1, 2)
-	sum++
+	s := "    12"
+	s = strings.TrimLeft(s, " ")
+	fmt.Println(s)
 }
 
 //func foo() int {
@@ -36,4 +38,3 @@ func main() {
 //	var _ = make([]int, 100)
 //	foo()
 //}
-//

@@ -1,6 +1,6 @@
 package codetop
 
-func deleteDuplicates(head *ListNode) *ListNode {
+func deleteDuplicatesii(head *ListNode) *ListNode {
 	emptyHead := &ListNode{
 		Val:  0,
 		Next: head,

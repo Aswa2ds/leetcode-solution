@@ -1,8 +1,8 @@
 package codetop
 
-type heap []*ListNode
+type myHeap []*ListNode
 
-func (hp *heap) down(i int) {
+func (hp *myHeap) down(i int) {
 	n := len(*hp)
 	for {
 		j1 := 2*i + 1
@@ -23,7 +23,7 @@ func (hp *heap) down(i int) {
 	}
 }
 
-func (hp *heap) up(j int) {
+func (hp *myHeap) up(j int) {
 	for j != 0 {
 		i := (j - 1) >> 1
 		if (*hp)[i].Val > (*hp)[j].Val {
@@ -33,12 +33,12 @@ func (hp *heap) up(j int) {
 	}
 }
 
-func (hp *heap) push(v *ListNode) {
+func (hp *myHeap) push(v *ListNode) {
 	*hp = append(*hp, v)
 	hp.up(len(*hp) - 1)
 }
 
-func (hp *heap) pop() *ListNode {
+func (hp *myHeap) pop() *ListNode {
 	ret := (*hp)[0]
 	(*hp)[0] = (*hp)[len((*hp))-1]
 	*hp = (*hp)[:len((*hp))-1]
@@ -49,7 +49,7 @@ func (hp *heap) pop() *ListNode {
 func mergeKLists(lists []*ListNode) *ListNode {
 	emptyHead := &ListNode{}
 	tail := emptyHead
-	hp := make(heap, 0)
+	hp := make(myHeap, 0)
 	for i := range lists {
 		if lists[i] != nil {
 			hp.push(lists[i])
